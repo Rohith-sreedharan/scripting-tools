@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap');
+
+* {
+    margin: 0
+}
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.ali {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 28px;
+}
+
+.cnt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(0, 208, 255);
+    font-size: 20px;
+}
+
+.transc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 10px;
+    color: rgb(153, 0, 255);
+    font-size: 18px;
+    animation: colorchange 2s ease infinite;
+}
+
+@keyframes colorchange {
+    0% {
+        color: rgb(255, 0, 0);
+    }
+
+    50% {
+        color: rgb(0, 255, 42);
+    }
+
+    100% {
+        color: rgb(255, 255, 255);
+    }
+}
